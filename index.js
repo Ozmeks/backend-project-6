@@ -1,5 +1,7 @@
-const testFunc = () => {
-  console.log('I am the first code line');
+export const testFunc = () => {
+  const a = 1;
+  console.log(`${a}`);
+  return a;
 };
 
 testFunc();
