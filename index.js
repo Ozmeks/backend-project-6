@@ -1,5 +1,5 @@
-const test_func = () => {
+const testFunc = () => {
   console.log('I am the first code line');
 };
 
-test_func();
+testFunc();
