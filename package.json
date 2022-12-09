@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx jest --bail"
   },
   "repository": {
     "type": "git",
@@ -18,8 +18,10 @@
   },
   "homepage": "https://github.com/Ozmeks/backend-project-6#readme",
   "devDependencies": {
+    "@jest/globals": "^29.3.1",
     "eslint": "^8.29.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.26.0"
+    "eslint-plugin-import": "^2.26.0",
+    "jest": "^29.3.1"
   }
 }
